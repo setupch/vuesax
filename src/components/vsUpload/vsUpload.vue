@@ -300,7 +300,7 @@
         }
         // const input = this.$refs.fileInput
         // input.type = 'text'
-        // input.type = 'file'
+        this.$refs.fileInput.type = 'file'
 
         if (this.automatic) {
           this.upload('all')
