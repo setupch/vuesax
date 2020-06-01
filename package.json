@@ -1,11 +1,14 @@
 {
-  "name": "vuesax",
+  "name": "vuesax_deconseil",
   "version": "3.11.15",
   "description": "Framework Components for Vue js",
   "license": "MIT",
   "author": "ldrovira <luisdanielrovira8@gmail.com>",
   "homepage": "https://lusaxweb.github.io/vuesax/#/",
-  "repository": "lusaxweb/vuesax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusaxweb/vuesax.git"
+  },
   "bugs": {
     "url": "https://github.com/lusaxweb/vuesax/issues"
   },
@@ -86,5 +89,8 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "directories": {
+    "doc": "docs"
+  }
 }
